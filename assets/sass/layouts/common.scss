@@ -224,3 +224,15 @@ main {
 .row {
   margin-left: 2rem;
 }
+
+.circle-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc;
+}
+
+.profile-wrapper {
+  text-align: center;
+}

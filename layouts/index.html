@@ -8,6 +8,9 @@
 {{ define "main" }}
 <main class="grid-container">
     <div id="content" class="index">
+        <div class="profile-wrapper">
+            <img src="/images/Photo_de_profil.jpg" alt="Mon profil" class="circle-image">
+        </div>
         {{ with .Site.GetPage "_index.md" }}
             {{ .Content }}
         {{ end }}
